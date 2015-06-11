@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Four In A Row</string>
+    <string name="about">Four In A Row by David Brad and Bradley Elliott (2011)\n\nPlayers alternate turns placing pieces on the board.  The first player to make a row of 4, whether vertically, horizontally, or diagonally in either direction is the winner.  Players can play with a friend in hotseat fashion or against our AI.  High scores are recorded for non-bot players.</string>
+    <string name="about_title">About</string>
+    <string name="score_title">High Score</string>
+    <string name="close_label">Close</string>
+
+</resources>

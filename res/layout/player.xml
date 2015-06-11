@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutP1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4.0" >
+
+        <Spinner
+            android:id="@+id/spinnerP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3.0" />
+
+        <Button
+            android:id="@+id/buttonNewP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:text="Add New Player" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtP1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:maxLength="8" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutP2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4.0" >
+
+        <Spinner
+            android:id="@+id/spinnerP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3.0" />
+
+        <Button
+            android:id="@+id/buttonNewP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:text="Add New Player" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtP2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:maxLength="8" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2.0" >
+
+        <Button
+            android:id="@+id/buttonPlyrBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/buttonPlyrStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Start" />
+    </LinearLayout>
+
+</LinearLayout>
